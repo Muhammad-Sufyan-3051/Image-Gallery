@@ -1,0 +1,17 @@
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.headerContent h1 {
+    font-size: 40px;
+}
+
+.headerContent p {
+    width: 80%;
+    font-size: 20px;
+}
