@@ -11,7 +11,7 @@ export const Nav = () => {
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
-                    <li>Author</li>
+                    <li>Discover</li>
                 </ul>
             </div>
         </div>

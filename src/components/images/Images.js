@@ -1,7 +1,13 @@
 import React from 'react'
+import { ImageCard } from './ImageCard';
+import styles from './Image.module.css';
 
-export const Images = () => {
+export const Images = ({ images }) => {
   return (
-    <div>Images</div>
+    <div className={styles.container}>
+      {images.map((element) => {
+        return <ImageCard image={element} />
+      })}
+    </div >
   )
 }
