@@ -7,7 +7,7 @@ export const ImageCard = ({ image }) => {
     return (
         <div className={styles.card}>
             <img src={image.imageUrl}
-                alt='gallery collection' />
+                alt='gallery collections' />
             <h1>{image.name}</h1>
             <p>
                 {image.description}
